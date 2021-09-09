@@ -1,0 +1,30 @@
+//Part 1
+import java.util.Scanner;
+
+public class VariableOutput {
+   public static void main (String [] args) {
+      int numTickets;
+
+      Scanner scnr = new Scanner(System.in);
+      numTickets = scnr.nextInt();
+
+      System.out.println(numTickets);
+
+   }
+}
+
+//Part 2
+import java.util.Scanner;
+
+public class VariableOutput {
+   public static void main (String [] args) {
+      int numHouses;
+
+      Scanner scnr = new Scanner(System.in);
+      numHouses = scnr.nextInt();
+
+      System.out.print("Number of houses: ");
+      System.out.println(numHouses);
+
+   }
+}
